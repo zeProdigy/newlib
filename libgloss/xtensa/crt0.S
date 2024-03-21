@@ -14,7 +14,7 @@
 	 *  Simple jump to main().
 	 */
 
-	.global	_start
+	.weak	_start
 	_start:
 	movi	a4, main
 	jx	a4		/* jump to main */

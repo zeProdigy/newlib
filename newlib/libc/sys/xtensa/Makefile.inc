@@ -1,1 +1,1 @@
-libc_a_SOURCES += %D%/creat.c %D%/isatty.c %D%/clibrary_init.c %D%/crt0.c
+libc_a_SOURCES += %D%/creat.c %D%/isatty.c %D%/clibrary_init.c
