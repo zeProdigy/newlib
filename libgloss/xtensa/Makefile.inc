@@ -8,10 +8,7 @@ multilibtool_DATA += \
 	%D%/sys.qemu.specs \
 	%D%/sys.openocd.specs \
 	%D%/crt0.o
-libobjs_a_SOURCES += \
-	%D%/crt0.S \
-	%D%/crt1-sim.S \
-	%D%/crt1-boards.S
+libobjs_a_SOURCES +=
 
 multilibtool_LIBRARIES += %D%/libgloss.a
 
